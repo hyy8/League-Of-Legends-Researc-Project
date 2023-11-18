@@ -37,7 +37,6 @@
     </tr>
   </tbody>
 </table>
-</div>
 <p>
 <strong> Below is the table of result distribution: </strong>   
 </p>
@@ -70,12 +69,12 @@
     </tr>
   </tbody>
 </table>
-</div>
 <h2>Univariate Analysis: </h2>
 <p> </p>
 <h2>Assessment of Missingness: </h2>
 <h3>Missingness Dependency: </h3>
 <p> Below is the observed distribution when "firstdragon" was not missing:</p>
+<div>
 <table border="1" class="dataframe">
   <thead>
     <tr>
@@ -108,6 +107,7 @@
 </table>
 </div>
 <p> Below is the observed distribution when "firstdragon" was missing:</p>
+<div>
 <table border="1" class="dataframe">
   <thead>
     <tr>
@@ -144,6 +144,7 @@
 
 <p> The Missingness of "firstdragon" does not depends on "dragons"</p>
 <p> Below is the observed distribution when "firstdragon" was not missing:</p>
+<div> 
 <table border="1" class="dataframe">
   <thead>
     <tr>
@@ -185,6 +186,7 @@
 </div>
 
 <p> Below is the observed distribution when "firstdragon" was missing:</p>
+<div>
 <table border="1" class="dataframe">
   <thead>
     <tr>
