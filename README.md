@@ -78,6 +78,28 @@
 <iframe src="assets/pie2.html" width=800 height=600 frameBorder=0></iframe>
 <h3>Bivariate Analysis:</h3>
 <iframe src="assets/Bivariate3.html" width=800 height=600 frameBorder=0></iframe>
+<h3>Interesting Aggregates:</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th style="text-align: left">result</th>
+      <th style="text-align: left">firstdragon</th>
+      <th style="text-align: left">firstherald</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Loss</th>
+      <td>0.379878</td>
+      <td>0.416830</td>
+    </tr>
+    <tr>
+      <th>Win</th>
+      <td>0.619904</td>
+      <td>0.582952</td>
+    </tr>
+  </tbody>
+</table>
 
   
 <p> </p>
