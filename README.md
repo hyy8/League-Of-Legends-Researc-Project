@@ -227,6 +227,28 @@
 <p> p_value: 0.8</p>
 <iframe src="assets/dragons.html" width=800 height=600 frameBorder=0></iframe>
 <h3> Hypothesis Testing: </h3>
+<p>
+  <strong>Null Hypothesis (H0):</strong>
+  The win rate of red side is equal to the win rate of the blue side.
+</p>
+<p>
+  <strong>Alternative Hypothesis (H1):</strong>
+  The win rate of red side is different from the win rate of the blue side.
+</p>
+<p>
+  <strong>t_statistic:</strong>
+  "We are using the difference between the two sample means divided by 
+  the standard error of the difference between those means to calculate the t_statistic."
+</p>
+<p>
+  <strong>Significant Level: 0.05</strong>
+</p>
+<p>
+  <strong>p_value:2.86252172582626e-24</strong>
+</p>
+<p>
+  <strong>Conclusion:Reject the null hypothesis.</strong>
+</p>
 
 
 
