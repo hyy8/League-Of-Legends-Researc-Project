@@ -83,6 +83,11 @@
 <h2>Assessment of Missingness: </h2>
 <h3>NMAR Analysis: </h3>
 <h3>Missingness Dependency: </h3>
+<p>
+  “Here we want to check whether the Missingness of the 'firstdragon' column depends on the 'barons' column.
+  We first obtain the distribution observed when "firstdragon" is not lost and the distribution observed 
+  when "firstdragon" is lost, and then do the permutation test."
+</p>
 <p> Below is the observed distribution when "firstdragon" was not missing:</p>
 
 <table border="1" class="dataframe">
@@ -148,12 +153,30 @@
     </tr>
   </tbody>
 </table>
-
+<p>
+  "After looking at the distribution observed when "firstdragon" is not lost and 
+  the distribution observed when "firstdragon" is lost, we start to do the permutation test. 
+  The first thing is to set up our hypothesis.”
+</p>
+<p>
+  <strong>Null Hypothesis (H0):</strong>
+   The Missingness of the 'firstdragon' column does not depend on the 'barons' column.
+</p>
+<p>
+  <strong>Alternative Hypothesis (H1):</strong>
+  The Missingness of the 'firstdragon' column depends on the 'barons' column.
+</p>
 <p> observed_tvd: 0.42118789454515004 </p>
 <p> p_value: 0.0 </p>
 <iframe src="assets/barons.html" width=800 height=600 frameBorder=0></iframe>
 
 <p> The Missingness of "firstdragon" does not depends on "dragons"</p>
+<p>
+  “Here we want to check whether the Missingness of the 'firstdragon' column depends on the 'dragons' column.
+  We first obtain the distribution observed when "firstdragon" is not lost and the distribution observed 
+  when "firstdragon" is lost, and then do the permutation test."
+</p>
+
 <p> Below is the observed distribution when "firstdragon" was not missing:</p>
 
 <table border="1" class="dataframe">
@@ -196,6 +219,7 @@
 </table>
 
 
+
 <p> Below is the observed distribution when "firstdragon" was missing:</p>
 
 <table border="1" class="dataframe">
@@ -232,6 +256,19 @@
     </tr>
   </tbody>
 </table>
+<p>
+  "After looking at the distribution observed when "firstdragon" is not lost and 
+  the distribution observed when "firstdragon" is lost, we start to do the permutation test. 
+  The first thing is to set up our hypothesis.”
+</p>
+<p>
+  <strong>Null Hypothesis (H0):</strong>
+   The Missingness of the 'firstdragon' column does not depend on the 'dragons' column.
+</p>
+<p>
+  <strong>Alternative Hypothesis (H1):</strong>
+  The Missingness of the 'firstdragon' column depends on the 'dragons' column.
+</p>
 
 <p> observed_tvd: 0.021956259443855583</p>
 <p> p_value: 0.8</p>
