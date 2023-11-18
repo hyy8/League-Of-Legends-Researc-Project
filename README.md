@@ -170,7 +170,6 @@
 <p> p_value: 0.0 </p>
 <iframe src="assets/barons.html" width=800 height=600 frameBorder=0></iframe>
 
-<p> The Missingness of "firstdragon" does not depends on "dragons"</p>
 <p>
   “Here we want to check whether the Missingness of the 'firstdragon' column depends on the 'dragons' column.
   We first obtain the distribution observed when "firstdragon" is not lost and the distribution observed 
