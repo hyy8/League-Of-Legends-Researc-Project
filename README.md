@@ -2,7 +2,9 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>Hello World</h1>
+<h1>Introduction:</h1>
+
+<h2> Cleaning and EDA (Exploratory Data Analysis):</h2>
 <p>I'm hosted with GitHub Pages.</p>
 <p>
 <strong> Here is the head of our side DataFrame: </strong>   
@@ -70,13 +72,13 @@
     </tr>
   </tbody>
 </table>
-<h1>Univariate Analysis: </h1>
-<h1>Bivariate Analysis:</h1>
+<h2>Univariate Analysis: </h2>
+<h2>Bivariate Analysis:</h2>
 <iframe src="assets/Bivariate3.html" width=800 height=600 frameBorder=0></iframe>
 
   
 <p> </p>
-<h2>Assessment of Missingness: </h2>
+<h3>Assessment of Missingness: </h3>
 <h3>Missingness Dependency: </h3>
 <p> Below is the observed distribution when "firstdragon" was not missing:</p>
 
