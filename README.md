@@ -183,6 +183,7 @@
     </tr>
   </tbody>
 </table>
+<iframe src="assets/barons.html" width=800 height=600 frameBorder=0></iframe>
 
 <p> Below is the observed distribution when "firstdragon" was missing:</p>
 
@@ -220,6 +221,7 @@
     </tr>
   </tbody>
 </table>
+<iframe src="assets/dragons.html" width=800 height=600 frameBorder=0></iframe>
 
 <p> observed_tvd: 0.021956259443855583</p>
 <p> p_value: 0.8</p>
