@@ -141,6 +141,7 @@
 
 <p> observed_tvd: 0.42118789454515004 </p>
 <p> p_value: 0.0 </p>
+<iframe src="assets/barons.html" width=800 height=600 frameBorder=0></iframe>
 
 <p> The Missingness of "firstdragon" does not depends on "dragons"</p>
 <p> Below is the observed distribution when "firstdragon" was not missing:</p>
@@ -183,7 +184,7 @@
     </tr>
   </tbody>
 </table>
-<iframe src="assets/barons.html" width=800 height=600 frameBorder=0></iframe>
+
 
 <p> Below is the observed distribution when "firstdragon" was missing:</p>
 
@@ -221,10 +222,10 @@
     </tr>
   </tbody>
 </table>
-<iframe src="assets/dragons.html" width=800 height=600 frameBorder=0></iframe>
 
 <p> observed_tvd: 0.021956259443855583</p>
 <p> p_value: 0.8</p>
+<iframe src="assets/dragons.html" width=800 height=600 frameBorder=0></iframe>
 <h3> Hypothesis Testing: </h3>
 
 
