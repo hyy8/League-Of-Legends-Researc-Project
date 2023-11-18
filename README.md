@@ -75,6 +75,7 @@
 </table>
 <h3>Univariate Analysis: </h3>
 <iframe src="assets/pie.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/pie2.html" width=800 height=600 frameBorder=0></iframe>
 <h3>Bivariate Analysis:</h3>
 <iframe src="assets/Bivariate3.html" width=800 height=600 frameBorder=0></iframe>
 
@@ -84,9 +85,9 @@
 <h3>NMAR Analysis: </h3>
 <h3>Missingness Dependency: </h3>
 <p>
-  “Here we want to check whether the Missingness of the 'firstdragon' column depends on the 'barons' column.
+  Here we want to check whether the Missingness of the 'firstdragon' column depends on the 'barons' column.
   We first obtain the distribution observed when "firstdragon" is not lost and the distribution observed 
-  when "firstdragon" is lost, and then do the permutation test."
+  when "firstdragon" is lost, and then do the permutation test.
 </p>
 <p> Below is the observed distribution when "firstdragon" was not missing:</p>
 
@@ -154,9 +155,9 @@
   </tbody>
 </table>
 <p>
-  "After looking at the distribution observed when "firstdragon" is not lost and 
+  After looking at the distribution observed when "firstdragon" is not lost and 
   the distribution observed when "firstdragon" is lost, we start to do the permutation test. 
-  The first thing is to set up our hypothesis.”
+  The first thing is to set up our hypothesis.
 </p>
 <p>
   <strong>Null Hypothesis (H0):</strong>
@@ -171,9 +172,9 @@
 <iframe src="assets/barons.html" width=800 height=600 frameBorder=0></iframe>
 
 <p>
-  “Here we want to check whether the Missingness of the 'firstdragon' column depends on the 'dragons' column.
+  Here we want to check whether the Missingness of the 'firstdragon' column depends on the 'dragons' column.
   We first obtain the distribution observed when "firstdragon" is not lost and the distribution observed 
-  when "firstdragon" is lost, and then do the permutation test."
+  when "firstdragon" is lost, and then do the permutation test.
 </p>
 
 <p> Below is the observed distribution when "firstdragon" was not missing:</p>
@@ -256,9 +257,9 @@
   </tbody>
 </table>
 <p>
-  "After looking at the distribution observed when "firstdragon" is not lost and 
+  After looking at the distribution observed when "firstdragon" is not lost and 
   the distribution observed when "firstdragon" is lost, we start to do the permutation test. 
-  The first thing is to set up our hypothesis.”
+  The first thing is to set up our hypothesis.
 </p>
 <p>
   <strong>Null Hypothesis (H0):</strong>
@@ -268,10 +269,12 @@
   <strong>Alternative Hypothesis (H1):</strong>
   The Missingness of the 'firstdragon' column depends on the 'dragons' column.
 </p>
-
+<iframe src="assets/dragons.html" width=800 height=600 frameBorder=0></iframe>
 <p> observed_tvd: 0.021956259443855583</p>
 <p> p_value: 0.8</p>
-<iframe src="assets/dragons.html" width=800 height=600 frameBorder=0></iframe>
+<p>
+ 
+</p>
 <h2> Hypothesis Testing: </h2>
 <p>
   <strong>Null Hypothesis (H0):</strong>
