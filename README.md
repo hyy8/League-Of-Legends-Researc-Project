@@ -4,7 +4,10 @@
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
-</style>
+<p>
+<strong> Here is the head of our side DataFrame</strong>
+    
+</p>
 <table border="1" class="dataframe">
   <thead>
     <tr>
