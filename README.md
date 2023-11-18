@@ -74,7 +74,7 @@
 <h2>Assessment of Missingness: </h2>
 <h3>Missingness Dependency: </h3>
 <p> Below is the observed distribution when "firstdragon" was not missing:</p>
-<div>
+
 <table border="1" class="dataframe">
   <thead>
     <tr>
@@ -105,9 +105,9 @@
     </tr>
   </tbody>
 </table>
-</div>
+
 <p> Below is the observed distribution when "firstdragon" was missing:</p>
-<div>
+
 <table border="1" class="dataframe">
   <thead>
     <tr>
@@ -138,13 +138,13 @@
     </tr>
   </tbody>
 </table>
-</div>
+
 <p> observed_tvd: 0.42118789454515004 </p>
 <p> p_value: 0.0 </p>
 
 <p> The Missingness of "firstdragon" does not depends on "dragons"</p>
 <p> Below is the observed distribution when "firstdragon" was not missing:</p>
-<div> 
+
 <table border="1" class="dataframe">
   <thead>
     <tr>
@@ -183,10 +183,9 @@
     </tr>
   </tbody>
 </table>
-</div>
 
 <p> Below is the observed distribution when "firstdragon" was missing:</p>
-<div>
+
 <table border="1" class="dataframe">
   <thead>
     <tr>
@@ -221,7 +220,7 @@
     </tr>
   </tbody>
 </table>
-</div>
+
 <p> observed_tvd: 0.021956259443855583</p>
 <p> p_value: 0.8</p>
 <h3> Hypothesis Testing: </h3>
