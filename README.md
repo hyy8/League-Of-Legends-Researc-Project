@@ -43,11 +43,12 @@
 <table border="1" class="dataframe">
   <thead>
     <tr>
-      <th style="text-align: right">result_side</th>
-      <th style="text-align: right">Loss</th>
-      <th style="text-align: right">Win</th>
-      <th style="text-align: right">Loss_prop</th>
-      <th style="text-align: right">Win_prop</th>
+      <th style="text-align: left">result_side</th>
+      <th style="text-align: left">Loss</th>
+      <th style="text-align: left">Win</th>
+      <th style="text-align: left">Total</th>
+      <th style="text-align: left">Loss_prop</th>
+      <th style="text-align: left">Win_prop</th>
     </tr>
   </thead>
   <tbody>
