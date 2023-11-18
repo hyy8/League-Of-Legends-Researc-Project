@@ -79,7 +79,8 @@
 
   
 <p> </p>
-<h3>Assessment of Missingness: </h3>
+<h2>Assessment of Missingness: </h2>
+<h3>NMAR Analysis: </h3>
 <h3>Missingness Dependency: </h3>
 <p> Below is the observed distribution when "firstdragon" was not missing:</p>
 
@@ -234,7 +235,7 @@
 <p> observed_tvd: 0.021956259443855583</p>
 <p> p_value: 0.8</p>
 <iframe src="assets/dragons.html" width=800 height=600 frameBorder=0></iframe>
-<h3> Hypothesis Testing: </h3>
+<h2> Hypothesis Testing: </h2>
 <p>
   <strong>Null Hypothesis (H0):</strong>
   The win rate of red side is equal to the win rate of the blue side.
