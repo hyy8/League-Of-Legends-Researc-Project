@@ -6,7 +6,7 @@
 <p> </p>
 
 <h2> Cleaning and EDA (Exploratory Data Analysis):</h2>
-<p>I'm hosted with GitHub Pages.</p>
+<h3> Data Cleaning</h3>
 <p>
 <strong> Here is the head of our side DataFrame: </strong>   
 </p>
@@ -73,8 +73,8 @@
     </tr>
   </tbody>
 </table>
-<h2>Univariate Analysis: </h2>
-<h2>Bivariate Analysis:</h2>
+<h3>Univariate Analysis: </h3>
+<h3>Bivariate Analysis:</h3>
 <iframe src="assets/Bivariate3.html" width=800 height=600 frameBorder=0></iframe>
 
   
