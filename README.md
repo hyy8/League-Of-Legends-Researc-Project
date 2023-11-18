@@ -70,7 +70,11 @@
     </tr>
   </tbody>
 </table>
-<h2>Univariate Analysis: </h2>
+<h1>Univariate Analysis: </h1>
+<h1>Bivariate Analysis:</h1>
+<iframe src="assets/Bivariate3.html" width=800 height=600 frameBorder=0></iframe>
+
+  
 <p> </p>
 <h2>Assessment of Missingness: </h2>
 <h3>Missingness Dependency: </h3>
