@@ -10,8 +10,8 @@
 <table border="1" class="dataframe">
   <thead>
     <tr>
-      <th style="text-align: right">side</th>
-      <th style="text-align: right">result</th>
+      <th style="text-align: left">side</th>
+      <th style="text-align: left">result</th>
     </tr>
   </thead>
   <tbody>
@@ -79,8 +79,8 @@
 <table border="1" class="dataframe">
   <thead>
     <tr>
-      <th style="text-align: right">barons</th>
-      <th style="text-align: right"> No Missing First Dragon</th>
+      <th style="text-align: left">barons</th>
+      <th style="text-align: left"> No Missing First Dragon</th>
     </tr>
   </thead>
   <tbody>
@@ -112,8 +112,8 @@
 <table border="1" class="dataframe">
   <thead>
     <tr>
-      <th style="text-align: right">barons</th>
-      <th style="text-align: right">Missing First Dragon</th>
+      <th style="text-align: left">barons</th>
+      <th style="text-align: left">Missing First Dragon</th>
     </tr>
   </thead>
   <tbody>
@@ -150,8 +150,8 @@
 <table border="1" class="dataframe">
   <thead>
     <tr>
-      <th style="text-align: right">dragons</th>
-      <th style="text-align: right"> No Missing First Dragon</th>
+      <th style="text-align: left">dragons</th>
+      <th style="text-align: left"> No Missing First Dragon</th>
     </tr>
   </thead>
   <tbody>
@@ -192,8 +192,8 @@
 <table border="1" class="dataframe">
   <thead>
     <tr>
-      <th style="text-align: right">dragons</th>
-      <th style="text-align: right">Missing First Dragon</th>
+      <th style="text-align: left">dragons</th>
+      <th style="text-align: left">Missing First Dragon</th>
     </tr>
   </thead>
   <tbody>
