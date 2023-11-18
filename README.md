@@ -7,35 +7,29 @@
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>side</th>
-      <th>result</th>
+    <tr>
+      <th style="text-align: right">side</th>
+      <th style="text-align: right">result</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>10</th>
       <td>Blue</td>
       <td>1</td>
     </tr>
     <tr>
-      <th>11</th>
       <td>Red</td>
       <td>0</td>
     </tr>
     <tr>
-      <th>22</th>
       <td>Blue</td>
       <td>0</td>
     </tr>
     <tr>
-      <th>23</th>
       <td>Red</td>
       <td>1</td>
     </tr>
     <tr>
-      <th>34</th>
       <td>Blue</td>
       <td>1</td>
     </tr>
