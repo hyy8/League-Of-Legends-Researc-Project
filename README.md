@@ -2,7 +2,8 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>Introduction:</h1>
+<h1>Hello </h1>
+<h2>Introduction:</h2>
 <p> </p>
 
 <h2> Cleaning and EDA (Exploratory Data Analysis):</h2>
@@ -74,6 +75,7 @@
   </tbody>
 </table>
 <h3>Univariate Analysis: </h3>
+<iframe src="assets/pie.html" width=800 height=600 frameBorder=0></iframe>
 <h3>Bivariate Analysis:</h3>
 <iframe src="assets/Bivariate3.html" width=800 height=600 frameBorder=0></iframe>
 
