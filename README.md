@@ -72,5 +72,156 @@
 </table>
 </div>
 <h2>Univariate Analysis: </h2>
+<p> </p>
+<h2>Assessment of Missingness: </h2>
+<h3>Missingness Dependency: </h3>
+<p> Below is the observed distribution when "firstdragon" was not missing:</p>
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th style="text-align: right">barons</th>
+      <th style="text-align: right"> No Missing First Dragon</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0.0</th>
+      <td>0.438794</td>
+    </tr>
+    <tr>
+      <th>1.0</th>
+      <td>0.396283</td>
+    </tr>
+    <tr>
+      <th>2.0</th>
+      <td>0.148245</td>
+    </tr>
+    <tr>
+      <th>3.0</th>
+      <td>0.015261</td>
+    </tr>
+    <tr>
+      <th>4.0</th>
+      <td>0.001417</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p> Below is the observed distribution when "firstdragon" was missing:</p>
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th style="text-align: right">barons</th>
+      <th style="text-align: right">Missing First Dragon</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0.0</th>
+      <td>0.859982</td>
+    </tr>
+    <tr>
+      <th>1.0</th>
+      <td>0.113656</td>
+    </tr>
+    <tr>
+      <th>2.0</th>
+      <td>0.024519</td>
+    </tr>
+    <tr>
+      <th>3.0</th>
+      <td>0.001779</td>
+    </tr>
+    <tr>
+      <th>4.0</th>
+      <td>0.000063</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p> The Missingness of "firstdragon" does not depends on "dragons"</p>
+<p> Below is the observed distribution when "firstdragon" was not missing:</p>
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th style="text-align: right">dragons</th>
+      <th style="text-align: right"> No Missing First Dragon</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>3.0</th>
+      <td>0.229671</td>
+    </tr>
+    <tr>
+      <th>2.0</th>
+      <td>0.224166</td>
+    </tr>
+    <tr>
+      <th>1.0</th>
+      <td>0.190702</td>
+    </tr>
+    <tr>
+      <th>4.0</th>
+      <td>0.174951</td>
+    </tr>
+    <tr>
+      <th>0.0</th>
+      <td>0.151679</td>
+    </tr>
+    <tr>
+      <th>5.0</th>
+      <td>0.027523</td>
+    </tr>
+    <tr>
+      <th>6.0</th>
+      <td>0.001308</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p> Below is the observed distribution when "firstdragon" was missing:</p>
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th style="text-align: right">dragons</th>
+      <th style="text-align: right">Missing First Dragon</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>3.0</th>
+      <td>0.304841</td>
+    </tr>
+    <tr>
+      <th>4.0</th>
+      <td>0.281182</td>
+    </tr>
+    <tr>
+      <th>2.0</th>
+      <td>0.227867</td>
+    </tr>
+    <tr>
+      <th>1.0</th>
+      <td>0.136284</td>
+    </tr>
+    <tr>
+      <th>5.0</th>
+      <td>0.047645</td>
+    </tr>
+    <tr>
+      <th>6.0</th>
+      <td>0.002181</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+  
 </body>
 </html>
