@@ -199,6 +199,8 @@
 </p>
 <p>
   <strong>Conclusion:</strong>
+</p>
+<p>
   p-value=0.0 which indicate a statistically significant association between the 'barons' column 
   and the missingness of the 'firstdragon' column. Hence, we reject the null hypothesis(H0) that the Missingness 
   of the 'firstdragon' column does not depend on the 'barons' column. This results upports the alternative hypothesis 
@@ -314,6 +316,8 @@
 </p>
 <p>
   <strong>Conclusion:</strong>
+</p>
+<p>
   p-value=0.8 which does not indicate a statistically significant association between the 'dragons' column 
   and the missingness of the 'firstdragon' column. Hence, we maintain the Null hypothesis(H0) that the missingness of 'firstdragon' 
   does not depend the 'dragons' column.
