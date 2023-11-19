@@ -356,7 +356,7 @@
   <strong>Alternative Hypothesis (H1):</strong>
   The Missingness of the 'firstdragon' column depends on the 'dragons' column.
 </p>
-<iframe src="assets/dragons.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/dragons1.html" width=800 height=600 frameBorder=0></iframe>
 <p> <strong>observed_tvd:</strong> 0.021956259443855583 </p>
 <p> <strong>p_value:</strong> 0.028</p>
 <p> <strong>Significant Level:</strong> 0.05</p>
@@ -456,20 +456,20 @@
   <strong>Alternative Hypothesis (H1):</strong>
   The Missingness of the 'firstdragon' column depends on the 'barons' column.
 </p>
-<iframe src="assets/barons.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/barons1.html" width=800 height=600 frameBorder=0></iframe>
 <p> <strong>observed_tvd:</strong> 0.0209675072302212</p>
-<p> <strong>>p_value:</strong> 0.072</p>
+<p> <strong>>p_value:</strong> 0.082</p>
 <p> <strong>Significant Level:</strong> 0.05</p>
 <p>
   In the permutation test, we set up n_repetitions = 500 which means it will perform
-  permutation test 500 times. After permutation test, we get the p_value was 0.072 
+  permutation test 500 times. After permutation test, we get the p_value was 0.082 
   which is greater than the significant level. So we Fail to reject the Null Hypothesis (H0). 
 </p>
 <p>
   <strong>Conclusion:</strong>
 </p>
 <p>
-  p-value=0.072 which does not indicate a statistically significant association between the 'barons' column 
+  p-value=0.082 which does not indicate a statistically significant association between the 'barons' column 
   and the missingness of the 'firstdragon' column. Hence, we maintain the Null hypothesis(H0) that the missingness of 'firstdragon' 
   does not depend the 'barons' column.
 </p>
