@@ -268,7 +268,11 @@
   The missingness of the 'ban4' column is related to actual missing value itself, so 'ban4' missingness should be NMAR.
 </p>
 <p>
-If we could generate another column indicating the number of heroes each team is best at, then the missing value of the 'ban4' column might be 'MAR'. Because in the game, each team first bans three heroes, and then each team selects three heroes. So if the number of heroes that a team is good at is less than or equal to 12, this will result in the team's hero pool being emptied out when three heroes are banned and three heroes are selected in the first round. Then this situation will lead to each team not knowing what to ban when banning the fourth one, and then they will give up banning the hero according to their strategy. Then this situation will cause the 'ban4' column to have missing values. So it can be seen that the missingness of the ‘ban4’ columns are related to the observed data of generated column in the data set. Hence, the missing value in the ‘ban4’ column should be MAR.
+ If we could generate another column indicating the list of hero names that each team is best at, then the missing value of the 'ban4' column might be 'MAR'. Because in the game, each 
+ team first bans three heroes, and then each team selects three heroes. If a team has a relatively small list of hero names, this will lead to the team's pool of heroes being emptied out 
+ when three heroes are banned and three heroes are selected in the first round. Then this situation will lead to each team not knowing what to ban when banning the fourth one, and then 
+ they will give up banning the hero according to their strategy. Then this situation will cause the 'ban4' column to have missing values. So it can be seen that the missingness of the 
+ ‘ban4’ columns are related to the observed data of generated column in the data set. Hence, the missing value in the ‘ban4’ column should be MAR.
   
 </p>
 <h3>Missingness Dependency: </h3>
