@@ -2,6 +2,10 @@
 <!DOCTYPE html>
 <html>
 <body>
+<p>
+  <strong>Name(s):</strong>
+  Leni Dai, Hongyu Yu
+</p>
 <h2>Introduction:</h2>
 <p> </p>
 
@@ -325,11 +329,11 @@
 <h2> Hypothesis Testing: </h2>
 <p>
   <strong>Null Hypothesis (H0):</strong>
-  The win rate of red side is equal to the win rate of the blue side.
+  The win rate of the red side is equal to the win rate of the blue side.
 </p>
 <p>
   <strong>Alternative Hypothesis (H1):</strong>
-  The win rate of red side is different from the win rate of the blue side.
+  The win rate of the red side is different from the win rate of the blue side.
 </p>
 <p>
   <strong>t_statistic:</strong>
@@ -343,11 +347,16 @@
   <strong>p_value:2.86252172582626e-24</strong>
 </p>
 <p>
-  <strong>Result:Reject the null hypothesis.</strong>
+  <strong>Result:Reject the Null Hypothesis(H0).</strong>
 </p>
 <p>
   <strong>Conclusion:</strong>
-  
+</p>
+<p>
+  In the hypothesis test, we get p_value =2.86252172582626e-24, which is significantly less than the significance level (0.05), 
+  and p_value=2.86252172582626e-24  which indicates a statistically significant difference between the win rates of the red side and the blue side. 
+  Hence, we Reject the Null Hypothesis(H0) that The win rate of the red side is equal to the win rate of the blue side. 
+  This result supports the alternative hypothesis that the win rate of the red side is different from the win rate of the blue side.
 </p>
 
 
