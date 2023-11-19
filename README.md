@@ -14,71 +14,60 @@
 <table border="1" class="dataframe">
   <thead>
     <tr>
+      <th style="text-align: left">side</th>
       <th style="text-align: left">result</th>
       <th style="text-align: left">teamname</th>
       <th style="text-align: left">barons</th>
       <th style="text-align: left">dragons</th>
-      <th style="text-align: left">side</th>
       <th style="text-align: left">firstdragon</th>
       <th style="text-align: left">firstherald</th>
-      <th style="text-align: left">position</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>Klanik Esport</td>
-      <td>0.0</td>
-      <td>NaN</td>
       <td>Blue</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>top</td>
-    </tr>
-    <tr>
-      <th>1</th>
       <td>1</td>
       <td>Klanik Esport</td>
       <td>1.0</td>
-      <td>NaN</td>
-      <td>Blue</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>jng</td>
+      <td>4.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
     </tr>
     <tr>
-      <th>2</th>
-      <td>1</td>
-      <td>Klanik Esport</td>
+      <td>Red</td>
+      <td>0</td>
+      <td>MS Company</td>
       <td>0.0</td>
-      <td>NaN</td>
-      <td>Blue</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>mid</td>
+      <td>3.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
     </tr>
     <tr>
-      <th>3</th>
-      <td>1</td>
-      <td>Klanik Esport</td>
-      <td>0.0</td>
-      <td>NaN</td>
       <td>Blue</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>bot</td>
+      <td>0</td>
+      <td>beGenius ESC</td>
+      <td>2.0</td>
+      <td>3.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
     </tr>
     <tr>
-      <th>4</th>
+      <td>Red</td>
       <td>1</td>
-      <td>Klanik Esport</td>
+      <td>ViV Esport</td>
+      <td>1.0</td>
+      <td>4.0</td>
+      <td>1.0</td>
       <td>0.0</td>
-      <td>NaN</td>
+    </tr>
+    <tr>
       <td>Blue</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>sup</td>
+      <td>1</td>
+      <td>Team du Sud</td>
+      <td>0.0</td>
+      <td>4.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
     </tr>
   </tbody>
 </table>
