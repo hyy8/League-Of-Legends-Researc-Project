@@ -32,14 +32,41 @@
 </p>
 <p>
   Here is a list of the relevant columns in our research, and their corresponding descriptions. 
-  ●teamname: the name of team playing
-  ●side: red or blue side
-  ●result:  '1' for a victory, '0' for a defeat
-  ●position: the player’s position or team
-  ●firstdragon: '1' for killing the first dragon, '0' for not
-  ●firstherald:  '1' for killing the first herald, '0' for not
-  ●barons: number of barons killed in the match 
-  ●dragons: number of dragons killed in the match 
+</p>
+<p>
+  <strong>●teamname:</strong>
+  the name of team playing
+</p>
+<p>
+  <strong>●side:</strong>
+  red or blue side
+</p>
+<p>
+  <strong>●result:</strong>
+  '1' for a victory, '0' for a defeat
+</p>
+<p>
+  <strong>●position:</strong>
+  the player’s position or team
+</p>
+<p>
+  <strong>●firstdragon:</strong>
+  '1' for killing the first dragon, '0' for not
+</p>
+<p>
+  <strong>●firstherald:</strong>
+  '1' for killing the first herald, '0' for not
+</p>
+  
+<p> 
+  <strong>●barons:</strong>
+  number of barons killed in the match 
+</p>
+<p>
+  <strong>
+    ●dragons:
+  </strong>
+  number of dragons killed in the match 
 </p>
 
 <h2> Cleaning and EDA (Exploratory Data Analysis):</h2>
