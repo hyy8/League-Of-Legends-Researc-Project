@@ -1,5 +1,4 @@
 # League Of Legends Side and Result Analysis 2023
-<!DOCTYPE html>
 <html>
 <body>
 <p>
@@ -273,7 +272,7 @@
   <thead>
     <tr>
       <th style="text-align: left">dragons</th>
-      <th style="text-align: left">No Missing firstdragon</th>
+      <th style="text-align: left">Not Missing firstdragon</th>
     </tr>
   </thead>
   <tbody>
