@@ -263,119 +263,17 @@
 <h3>NMAR Analysis: </h3>
 <h3>Missingness Dependency: </h3>
 <p>
-  Here we want to check whether the Missingness of the 'firstdragon' column depends on the 'barons' column.
-  We first obtain the distribution observed when "firstdragon" is not lost and the distribution observed 
-  when "firstdragon" is lost, and then do the permutation test.
-</p>
-<p> Below is the observed distribution when "firstdragon" was not missing:</p>
-
-<table border="1" class="dataframe">
-  <thead>
-    <tr>
-      <th style="text-align: left">barons</th>
-      <th style="text-align: left"> No Missing First Dragon</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0.0</th>
-      <td>0.438794</td>
-    </tr>
-    <tr>
-      <th>1.0</th>
-      <td>0.396283</td>
-    </tr>
-    <tr>
-      <th>2.0</th>
-      <td>0.148245</td>
-    </tr>
-    <tr>
-      <th>3.0</th>
-      <td>0.015261</td>
-    </tr>
-    <tr>
-      <th>4.0</th>
-      <td>0.001417</td>
-    </tr>
-  </tbody>
-</table>
-
-<p> Below is the observed distribution when "firstdragon" was missing:</p>
-
-<table border="1" class="dataframe">
-  <thead>
-    <tr>
-      <th style="text-align: left">barons</th>
-      <th style="text-align: left">Missing First Dragon</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0.0</th>
-      <td>0.859982</td>
-    </tr>
-    <tr>
-      <th>1.0</th>
-      <td>0.113656</td>
-    </tr>
-    <tr>
-      <th>2.0</th>
-      <td>0.024519</td>
-    </tr>
-    <tr>
-      <th>3.0</th>
-      <td>0.001779</td>
-    </tr>
-    <tr>
-      <th>4.0</th>
-      <td>0.000063</td>
-    </tr>
-  </tbody>
-</table>
-<p>
-  After looking at the distribution observed when "firstdragon" is not lost and 
-  the distribution observed when "firstdragon" is lost, we start to do the permutation test. 
-  The first thing is to set up our hypothesis.
-</p>
-<p>
-  <strong>Null Hypothesis (H0):</strong>
-   The Missingness of the 'firstdragon' column does not depend on the 'barons' column.
-</p>
-<p>
-  <strong>Alternative Hypothesis (H1):</strong>
-  The Missingness of the 'firstdragon' column depends on the 'barons' column.
-</p>
-<iframe src="assets/barons.html" width=800 height=600 frameBorder=0></iframe>
-<p> observed_tvd: 0.42118789454515004 </p>
-<p> p_value: 0.0 </p>
-<p> Significant Level: 0.05</p>
-<p>In the permutation test, we set up n_repetitions = 500 which means it will perform
-   permutation test 500 times. After permutation test, we get the p_value was 0.0 
-   which is smaller than the significant level. So we reject the Null Hypothesis (H0). 
-</p>
-<p>
-  <strong>Conclusion:</strong>
-</p>
-<p>
-  p-value=0.0 which indicate a statistically significant association between the 'barons' column 
-  and the missingness of the 'firstdragon' column. Hence, we reject the null hypothesis(H0) that the Missingness 
-  of the 'firstdragon' column does not depend on the 'barons' column. This results upports the alternative hypothesis 
-  that the missingness of 'firstdragon' depends on the 'barons' column.
-</p>
-
-<p>
   Here we want to check whether the Missingness of the 'firstdragon' column depends on the 'dragons' column.
   We first obtain the distribution observed when "firstdragon" is not lost and the distribution observed 
   when "firstdragon" is lost, and then do the permutation test.
 </p>
-
 <p> Below is the observed distribution when "firstdragon" was not missing:</p>
 
 <table border="1" class="dataframe">
   <thead>
     <tr>
       <th style="text-align: left">dragons</th>
-      <th style="text-align: left"> No Missing First Dragon</th>
+      <th style="text-align: left">No Missing firstdragon</th>
     </tr>
   </thead>
   <tbody>
@@ -410,15 +308,13 @@
   </tbody>
 </table>
 
-
-
 <p> Below is the observed distribution when "firstdragon" was missing:</p>
 
 <table border="1" class="dataframe">
   <thead>
     <tr>
       <th style="text-align: left">dragons</th>
-      <th style="text-align: left">Missing First Dragon</th>
+      <th style="text-align: left"> Missing firstdragon</th>
     </tr>
   </thead>
   <tbody>
@@ -462,21 +358,121 @@
   The Missingness of the 'firstdragon' column depends on the 'dragons' column.
 </p>
 <iframe src="assets/dragons.html" width=800 height=600 frameBorder=0></iframe>
-<p> observed_tvd: 0.021956259443855583</p>
-<p> p_value: 0.8</p>
-<p> Significant Level: 0.05</p>
+<p> <strong>observed_tvd:</strong> 0.021956259443855583 </p>
+<p> <strong>p_value:</strong> 0.028</p>
+<p> <strong>Significant Level:</strong> 0.05</p>
+<p>In the permutation test, we set up n_repetitions = 500 which means it will perform
+   permutation test 500 times. After permutation test, we get the p_value was 0.028 
+   which is smaller than the significant level. So we reject the Null Hypothesis (H0). 
+</p>
+<p>
+  <strong>Conclusion:</strong>
+</p>
+<p>
+  p-value=0.028 which indicate a statistically significant association between the 'dragons' column 
+  and the missingness of the 'firstdragon' column. Hence, we reject the null hypothesis(H0) that the Missingness 
+  of the 'firstdragon' column does not depend on the 'dragons' column. This results supports the alternative hypothesis 
+  that the missingness of 'firstdragon' depends on the 'dragons' column.
+</p>
+
+<p>
+  Here we want to check whether the Missingness of the 'firstdragon' column depends on the 'barons' column.
+  We first obtain the distribution observed when "firstdragon" is not lost and the distribution observed 
+  when "firstdragon" is lost, and then do the permutation test.
+</p>
+
+<p> Below is the observed distribution when "firstdragon" was not missing:</p>
+
+<table border="1" class="dataframe">
+  <thead>
+    <th style="text-align: left">barons</th>
+    <th style="text-align: left">Not Missing firstdragon</th>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0.0</th>
+      <td>0.438794</td>
+    </tr>
+    <tr>
+      <th>1.0</th>
+      <td>0.396283</td>
+    </tr>
+    <tr>
+      <th>2.0</th>
+      <td>0.148245</td>
+    </tr>
+    <tr>
+      <th>3.0</th>
+      <td>0.015261</td>
+    </tr>
+    <tr>
+      <th>4.0</th>
+      <td>0.001417</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<p> Below is the observed distribution when "firstdragon" was missing:</p>
+
+<table border="1" class="dataframe">
+  <thead>
+    <th style="text-align: left">barons</th>
+    <th style="text-align: left">Missing firstdragon</th>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0.0</th>
+      <td>0.442734</td>
+    </tr>
+    <tr>
+      <th>1.0</th>
+      <td>0.413177</td>
+    </tr>
+    <tr>
+      <th>2.0</th>
+      <td>0.128387</td>
+    </tr>
+    <tr>
+      <th>3.0</th>
+      <td>0.015394</td>
+    </tr>
+    <tr>
+      <th>4.0</th>
+      <td>0.000308</td>
+    </tr>
+  </tbody>
+</table>
+<p>
+  After looking at the distribution observed when "firstdragon" is not lost and 
+  the distribution observed when "firstdragon" is lost, we start to do the permutation test. 
+  The first thing is to set up our hypothesis.
+</p>
+<p>
+  <strong>Null Hypothesis (H0):</strong>
+   The Missingness of the 'firstdragon' column does not depend on the 'barons' column.
+</p>
+<p>
+  <strong>Alternative Hypothesis (H1):</strong>
+  The Missingness of the 'firstdragon' column depends on the 'barons' column.
+</p>
+<iframe src="assets/barons.html" width=800 height=600 frameBorder=0></iframe>
+<p> <strong>observed_tvd:</strong> 0.0209675072302212</p>
+<p> <strong>>p_value:</strong> 0.072</p>
+<p> <strong>Significant Level:</strong> 0.05</p>
 <p>
   In the permutation test, we set up n_repetitions = 500 which means it will perform
-  permutation test 500 times. After permutation test, we get the p_value was 0.8 
+  permutation test 500 times. After permutation test, we get the p_value was 0.072 
   which is greater than the significant level. So we Fail to reject the Null Hypothesis (H0). 
 </p>
 <p>
   <strong>Conclusion:</strong>
 </p>
 <p>
-  p-value=0.8 which does not indicate a statistically significant association between the 'dragons' column 
+  p-value=0.072 which does not indicate a statistically significant association between the 'barons' column 
   and the missingness of the 'firstdragon' column. Hence, we maintain the Null hypothesis(H0) that the missingness of 'firstdragon' 
-  does not depend the 'dragons' column.
+  does not depend the 'barons' column.
 </p>
 <h2> Hypothesis Testing: </h2>
 <p>
@@ -488,7 +484,9 @@
   The win rate of the red side is different from the win rate of the blue side.
 </p>
 <p>
-  <strong>t_statistic:</strong>
+  <strong>t_statistic:10.176559519346588</strong>
+</p>
+<p>
    We use the difference between the two sample means divided by the standard 
    error of the difference between those means to calculate the t_statistic.
 </p>
