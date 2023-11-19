@@ -11,6 +11,77 @@
 
 <h2> Cleaning and EDA (Exploratory Data Analysis):</h2>
 <h3> Data Cleaning</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th style="text-align: left">result</th>
+      <th style="text-align: left">teamname</th>
+      <th style="text-align: left">barons</th>
+      <th style="text-align: left">dragons</th>
+      <th style="text-align: left">side</th>
+      <th style="text-align: left">firstdragon</th>
+      <th style="text-align: left">firstherald</th>
+      <th style="text-align: left">position</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>Klanik Esport</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>Blue</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>top</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>Klanik Esport</td>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>Blue</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>jng</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1</td>
+      <td>Klanik Esport</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>Blue</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>mid</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1</td>
+      <td>Klanik Esport</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>Blue</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>bot</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1</td>
+      <td>Klanik Esport</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>Blue</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>sup</td>
+    </tr>
+  </tbody>
+</table>
 <p>
 <strong> Here is the head of our side DataFrame: </strong>   
 </p>
