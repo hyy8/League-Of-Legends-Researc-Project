@@ -458,7 +458,7 @@
 </p>
 <iframe src="assets/barons1.html" width=800 height=600 frameBorder=0></iframe>
 <p> <strong>observed_tvd:</strong> 0.0209675072302212</p>
-<p> <strong>>p_value:</strong> 0.082</p>
+<p> <strong>p_value:</strong> 0.082</p>
 <p> <strong>Significant Level:</strong> 0.05</p>
 <p>
   In the permutation test, we set up n_repetitions = 500 which means it will perform
