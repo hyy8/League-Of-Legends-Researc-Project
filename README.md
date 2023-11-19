@@ -192,6 +192,10 @@
 <p> observed_tvd: 0.42118789454515004 </p>
 <p> p_value: 0.0 </p>
 <iframe src="assets/barons.html" width=800 height=600 frameBorder=0></iframe>
+<p>In the permutation test, we set up n_repetitions = 500 which means it will perform
+   permutation test 500 times. After permutation test, we get the p_value was 0.0 
+   which is smaller than the significant level. So we reject the Null Hypothesis (H0). 
+</p>
 
 <p>
   Here we want to check whether the Missingness of the 'firstdragon' column depends on the 'dragons' column.
@@ -294,8 +298,11 @@
 <iframe src="assets/dragons.html" width=800 height=600 frameBorder=0></iframe>
 <p> observed_tvd: 0.021956259443855583</p>
 <p> p_value: 0.8</p>
+<p> significant level: 0.05</p>
 <p>
- 
+  In the permutation test, we set up n_repetitions = 500 which means it will perform
+  permutation test 500 times. After permutation test, we get the p_value was 0.8 
+  which is smaller than the significant level. So we Fail to reject the Null Hypothesis (H0). 
 </p>
 <h2> Hypothesis Testing: </h2>
 <p>
