@@ -397,8 +397,8 @@
 </p>
 <p>
   <strong>t_statistic:</strong>
-  "We are using the difference between the two sample means divided by 
-  the standard error of the difference between those means to calculate the t_statistic."
+   We use the difference between the two sample means divided by the standard 
+   error of the difference between those means to calculate the t_statistic.
 </p>
 <p>
   <strong>Significant Level: 0.05</strong>
